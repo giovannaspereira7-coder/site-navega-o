@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rosybrown;
+    list-style: none;
+}
+
+#container{
+    border: 1px solid rgb(245, 191, 209);
+    max-width: 1000px;
+    /*Centralizar*/
+    margin: 0 auto; /*Centraliza a "borda"*/
+}
+
+nav ul{
+    text-align: center;
+background-color: rgb(255, 219, 219);
+}
+
+nav ul li{
+    display: inline-block; /* deixa um ao lado do outro, porém pode alterar*/
+}
+
+nav ul li a{
+    display: block;
+    color: rosybrown;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: rgb(255, 194, 214);
+}
+
+.content{ /* h1*/ 
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
