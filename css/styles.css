@@ -6,15 +6,16 @@
 }
 
 #container{
-    border: 1px solid rgb(245, 191, 209);
-    max-width: 1000px;
+    border: 3px solid #F3BEB1;
+    max-width: 100%;
     /*Centralizar*/
     margin: 0 auto; /*Centraliza a "borda"*/
+
 }
 
 nav ul{
     text-align: center;
-background-color: rgb(255, 219, 219);
+background-color: rgb(252, 208, 208);
 }
 
 nav ul li{
@@ -30,11 +31,148 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: rgb(255, 194, 214);
+    background-color:  rosybrown;
 }
 
 .content{ /* h1*/ 
     padding: 10px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  rgb(255, 219, 219);
+    
 }
+
+.img img{
+  width: 1900px;
+  height: 600px;
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    gap: 50px;               
+    margin: 40px auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    background-color:  rgb(255, 219, 219);
+    height: 600px;   
+}
+.card{
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card img{
+    width: 200px;
+    height: 380px;
+    display: block;
+    margin: 0 auto 10px;
+    margin-top: 30px;
+  border-radius: 40px;
+  border: 2px solid pink;
+ 
+}
+.card button{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:rgb(255, 202, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 139, 177);
+    border: 0px;
+    margin-top: 3px;
+    
+}
+.destaques {
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(252, 208, 208);
+    text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobre{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+}
+
+.sobre img{
+     width: 500px;
+    max-width: 400px;
+    display: block;
+}
+
+.sobre p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.cartas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    background-color:  rgb(255, 219, 219);
+    height: 600px;   
+}
+.carta{
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.carta img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 10px;
+    margin-top: 30px;
+  border-radius: 40px;
+  border: 2px solid pink;
+  
+}
+table{
+    width: 100%;
+
+}
+th{
+    background: rgb(255, 216, 216);
+    color: rosybrown;
+    font-size: 20px;
+    text-align: center;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid rosybrown;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
